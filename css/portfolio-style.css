@@ -372,7 +372,7 @@ a:hover, a:active, a:focus {
   padding-left: 0;
 }
 
-#home .home-img {
+#home .container .home-img {
   background: url('../assets/Portrait.jpg') no-repeat;
   background-size: cover;
   background-position: 50% 50%;
