@@ -373,7 +373,7 @@ a:hover, a:active, a:focus {
 }
 
 #home .home-img {
-  background: url('../assets/portrait.jpg') no-repeat;
+  background: url('assets/Portrait.jpg') no-repeat;
   background-size: cover;
   background-position: 50% 50%;
   width: 100%;
@@ -398,7 +398,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #about .about-img {
-    background: url('./assets/Berlin1.jpg') no-repeat;
+    background: url('assets/Berlin1.JPG') no-repeat;
 }
 
 #about .about-thumb,
@@ -450,7 +450,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #experience .experience-img {
-  background: url('./assets/Berlin2.jpg') no-repeat;
+  background: url('assets/Berlin2.JPG') no-repeat;
 }
 
 #experience .media-heading {
@@ -476,7 +476,7 @@ a:hover, a:active, a:focus {
 }
 
 #education .education-img {
-  background: url('./assets/Berlin3.jpg') no-repeat;
+  background: url('assets/Berlin3.JPG') no-repeat;
 }
 
 #education .media-heading {
