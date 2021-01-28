@@ -475,6 +475,11 @@ a:hover, a:active, a:focus {
     Project section
 -----------------------------------------*/
 
+#projects {
+  background: #013220;
+}
+
+
 #projects .photo-grid .grid-container h2{
     padding-top: 2rem;
     padding-left: 5rem;
@@ -544,11 +549,6 @@ a:hover, a:active, a:focus {
       width: 100%;
     }
   }
-
-
-#projects {
-  background: #013220;
-}
 
 /*---------------------------------------
     Contact section
@@ -622,6 +622,7 @@ a:hover, a:active, a:focus {
 
 footer {
     padding: 140px 0px;
+    background: #FFFFFF;
 }
 
 /*---------------------------------------
