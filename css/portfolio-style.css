@@ -109,8 +109,7 @@ p {
 #service,
 #experience,
 #education,
-#contact
-#projects{
+#contact{
   position: relative;
 }
 
@@ -119,8 +118,7 @@ p {
 #experience .container,
 #service .container,
 #education .container,
-#contact .container,
-#projects.container {
+#contact .container{
   width: 100%;
   padding: 0;
   margin: 0;
@@ -132,7 +130,6 @@ p {
 }
 
 #service,
-#quotes,
 footer {
   text-align: center;
 }
