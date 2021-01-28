@@ -139,8 +139,7 @@ footer {
 }
 
 #experience,
-#education,
-#projects {
+#education, {
   background: #E9724C;
 }
 
@@ -575,25 +574,7 @@ a:hover, a:active, a:focus {
 
 
 #projects {
-  background: #E3AE57;
-}
-
-#projects .project-img {
-  background: url('./assets/Berlin3.jpg') no-repeat;
-}
-
-#projects .media-heading {
-  margin-bottom: 0px;
-}
-
-#projects .media .fa {
-  font-size: 42px;
-  margin-right: 14px;
-}
-
-#projects small {
-  color: #886D1E;
-  font-weight: bold;
+  background: #013220;
 }
 
 /*---------------------------------------
