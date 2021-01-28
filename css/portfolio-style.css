@@ -499,21 +499,25 @@ a:hover, a:active, a:focus {
 }
 
 
-.photo-grid .grid-container h2{
+/*---------------------------------------
+    Project section
+-----------------------------------------*/
+
+#projects .photo-grid .grid-container h2{
     padding-top: 2rem;
     padding-left: 5rem;
   }
 
-  .photo-grid .grid-container span{
+#projects  .photo-grid .grid-container span{
     font-family: 'Dancing Script', cursive;
     font-size: 2.5rem;
   }
 
-  * {
+#projects  * {
     box-sizing: border-box;
   }
 
-  .grid-container {
+#projects  .grid-container {
     width: 100%;
     max-width: 1200px;
     border-radius: 4px;
@@ -521,20 +525,20 @@ a:hover, a:active, a:focus {
     padding: 40px 0;
   }
 
-  .content {
+#projects  .content {
     display: flex;
     flex-wrap: wrap;
     margin-top: 60px;
     padding: 0 30px;
   }
 
-  .wrapper {
+#projects  .wrapper {
     width: 33.3%;
     height: 100%;
     padding: 10px;
   }
 
-  .box {
+#projects  .box {
     position: relative;
     max-height: 300px;
     border-radius: 4px;
@@ -548,7 +552,7 @@ a:hover, a:active, a:focus {
     0 50px 60px rgba(0, 0, 0, 0.06);
   }
 
-  .box-img {
+#projects  .box-img {
     position:relative;
     width: 100%;
     height: 100%;
@@ -569,9 +573,6 @@ a:hover, a:active, a:focus {
     }
   }
 
-/*---------------------------------------
-    Project section
------------------------------------------*/
 
 #projects {
   background: #E3AE57;
