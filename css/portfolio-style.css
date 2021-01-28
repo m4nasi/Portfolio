@@ -480,10 +480,13 @@ a:hover, a:active, a:focus {
 }
 
 
-#projects .photo-grid .grid-container h2{
+#projects .photo-grid .grid-container h1{
     padding-top: 2rem;
     padding-left: 5rem;
+    text-align: left;
+    color: #ffff;
   }
+
 
 #projects  .photo-grid .grid-container span{
     font-family: 'Dancing Script', cursive;
