@@ -109,7 +109,8 @@ p {
 #service,
 #experience,
 #education,
-#contact {
+#contact
+#projects{
   position: relative;
 }
 
@@ -118,7 +119,8 @@ p {
 #experience .container,
 #service .container,
 #education .container,
-#contact .container {
+#contact .container,
+#projects.container {
   width: 100%;
   padding: 0;
   margin: 0;
@@ -131,12 +133,14 @@ p {
 
 #service,
 #quotes,
+#projects,
 footer {
   text-align: center;
 }
 
 #experience,
-#education {
+#education,
+#projects {
   background: #E9724C;
 }
 
@@ -494,83 +498,101 @@ a:hover, a:active, a:focus {
   font-weight: bold;
 }
 
-.fourth-content {
-	padding: 5px;
-	background-color: #013220;
-}
 
-.fourth-content .container-fluid {
-	padding-right: 15px;
-	padding-left: 15px;
-}
+.photo-grid .grid-container h2{
+    padding-top: 2rem;
+    padding-left: 5rem;
+  }
 
-.fourth-content .container-fluid .col-md-4 {
-	padding-right: 0px;
-	padding-left: 0px;
-}
+  .photo-grid .grid-container span{
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5rem;
+  }
 
-.fourth-content .item {
-	margin: 10px;
-}
+  * {
+    box-sizing: border-box;
+  }
 
-.fourth-content .item img {
-	max-width: 100%;
-	overflow: hidden;
-}
-
-.fourth-content .item .thumb {
-	position: relative;
-}
-
-.fourth-content .item .hover-effect {
-	text-align: left;
-	position: absolute;
-	color: #fff;
-	background-color: rgba(0,0,0,0.95);
-	bottom: 0;
-	top: 0;
-	left: 0;
-	right: 0;
-	opacity: 0;
-	visibility: hidden;
-	transition: all 0.8s;
-}
-
-.fourth-content .item:hover .hover-effect {
-	opacity: 1;
-	visibility: visible;
-}
-
-.fourth-content .item .hover-effect .hover-content {
-	transform: translateY(-50%);
-    position: absolute;
-    text-align: left;
+  .grid-container {
     width: 100%;
-    top: 50%;
-    left: 0;
-    padding: 30px;
+    max-width: 1200px;
+    border-radius: 4px;
+    margin: 0 auto;
+    padding: 40px 0;
+  }
+
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    padding: 0 30px;
+  }
+
+  .wrapper {
+    width: 33.3%;
+    height: 100%;
+    padding: 10px;
+  }
+
+  .box {
+    position: relative;
+    max-height: 300px;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow:
+    0 1.4px 1.7px rgba(0, 0, 0, 0.017),
+    0 3.3px 4px rgba(0, 0, 0, 0.024),
+    0 6.3px 7.5px rgba(0, 0, 0, 0.03),
+    0 11.2px 13.4px rgba(0, 0, 0, 0.036),
+    0 20.9px 25.1px rgba(0, 0, 0, 0.043),
+    0 50px 60px rgba(0, 0, 0, 0.06);
+  }
+
+  .box-img {
+    position:relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all .3s ease-in-out;
+  }
+
+
+  @media screen and (max-width: 880px) {
+    .wrapper {
+      width: 50%;
+    }
+  }
+
+  @media screen and (max-width: 520px) {
+    .wrapper {
+      width: 100%;
+    }
+  }
+
+/*---------------------------------------
+    Project section
+-----------------------------------------*/
+
+#projects {
+  background: #E3AE57;
 }
 
-.fourth-content .item .hover-effect h2 {
-	font-size: 18px;
-	text-transform: uppercase;
-	font-weight: 700;
-	color: #fff;
-	letter-spacing: 0.5px;
-	border-bottom: 1px solid #fff;
-	display: inline-block;
-	padding-bottom: 10px;
-	margin-bottom: 10px;
-	margin-top: 0px;
+#projects .project-img {
+  background: url('./assets/Berlin3.jpg') no-repeat;
 }
 
-.fourth-content .item .hover-effect p {
-	font-size: 13px;
-	text-transform: uppercase;
-	letter-spacing: 0.5px;
-	line-height: 22px;
-	padding-bottom: 0px;
-	margin-bottom: 0px;
+#projects .media-heading {
+  margin-bottom: 0px;
+}
+
+#projects .media .fa {
+  font-size: 42px;
+  margin-right: 14px;
+}
+
+#projects small {
+  color: #886D1E;
+  font-weight: bold;
 }
 
 /*---------------------------------------
