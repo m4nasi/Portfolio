@@ -261,104 +261,78 @@ a:hover, a:active, a:focus {
 /*---------------------------------------
     Navigation section
 -----------------------------------------*/
-/* --------------- navbar ----------------- */
 
-.nav{
-  background: white;
-  padding: 0 2rem;
-  height: 0rem;
-  min-height: 10vh;
-  overflow: hidden;
-  transition: height 1s ease-in-out;
-	font-family: 'Source Sans Pro', sans-serif;
+/*---------------------------------------
+    Navigation section
+-----------------------------------------*/
+
+.custom-navbar {
+    margin-bottom: 0;
+    background-color: #ffffff;
 }
 
-.nav .nav-menu{
-  justify-content: space-between;
+.custom-navbar .navbar-brand {
+    color: #333;
+	text-shadow: 1px 1px #fff;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: 1px;
 }
 
-.nav .toggle-collapse{
-  position: absolute;
-  top: 0%;
-  width: 90%;
-  display: none;
-  cursor: pointer;
+.custom-navbar .nav li a {
+    color: #666;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    line-height: 40px;
+    transition: all 0.4s ease-in-out;
 }
 
-.nav .toggle-collapse .toggle-icons{
-  display: flex;
-  justify-content: flex-end;
-  padding: 1.7rem 0;
+.custom-navbar .nav li a:hover {
+    background: transparent;
+    color: #E3AE57;
 }
 
-.nav .toggle-collapse .toggle-icons i{
-  font-size: 1.4rem;
-  color: var(--text-gray);
+.custom-navbar .navbar-nav > li > a:hover,
+.custom-navbar .navbar-nav > li > a:focus {
+  background-color: transparent;
 }
 
-.collapse{
-  height: 30rem;
+.custom-navbar .nav li.active > a {
+    background-color: transparent;
+    color: #E3AE57;
 }
 
-.nav .nav-items{
-  display: flex;
-  margin: 0;
+.custom-navbar .navbar-toggle {
+    border: none;
+    padding-top: 10px;
 }
 
-.nav .nav-items .nav-link{
-  padding: 1.6rem 1rem;
-  font-size: 1.1rem;
-  position: relative;
-  font-family: 'Abel';
-  font-size: 1.1rem;
+.custom-navbar .navbar-toggle {
+    background-color: transparent;
 }
 
-.nav .nav-items .nav-link:hover{
-  background-color: #104f55;
+.custom-navbar .navbar-toggle .icon-bar {
+    background: #E3AE57;
+    border-color: transparent;
 }
 
-.nav .nav-items .nav-link:hover a{
-  color: #ffffff;
+@media(min-width:768px) {
+    .custom-navbar {
+        padding: 12px 0;
+        border-bottom: 0;
+        background: 0 0;
+    }
+    .custom-navbar.top-nav-collapse {
+        background: #ffffff;
+        box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08);
+        padding: 0;
+    }
+
 }
 
-.nav .nav-brand a{
-  font-size: 1.6rem;
-  padding: 1rem 0;
-  display: block;
-  font-family: 'Lexend';
-  font-size: 1.6rem;
-}
-
-.nav .social{
-  padding: 1.4rem 0
-}
-
-.nav .social i{
-  padding: 0 .2rem;
-}
-
-.nav .social i:hover{
-  color: #a1c4cf;
-}
-
-.nav a{
-  text-decoration: none;
-  color: #3f4954;
-}
-
-.flex-row{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.nav ul{
-  list-style-type: none;
-}
-
-.text-gray{
-  color: #3f4954;
-}
 /* -------x------- navbar ---------x------- */
 
 /*---------------------------------------
