@@ -139,11 +139,13 @@ footer {
 }
 
 #experience,
-#education,
-#projects {
+#education{
   background: #E9724C;
 }
 
+#projects {
+  background: #BD6B73;
+}
 .background-image {
     background-position: 50% 50% !important;
     background-size: cover !important;
