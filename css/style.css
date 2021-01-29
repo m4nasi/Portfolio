@@ -147,6 +147,11 @@ footer {
   background: #A54657;
 }
 
+#about{
+  background: #8380B6;
+}
+
+
 .background-image {
     background-position: 50% 50% !important;
     background-size: cover !important;
