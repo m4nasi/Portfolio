@@ -454,7 +454,7 @@ a:hover, a:active, a:focus {
 }
 
 #experience small {
-  color: #633;
+  color: #FFB8D1;
   font-weight: bold;
 }
 
@@ -480,10 +480,13 @@ a:hover, a:active, a:focus {
 }
 
 #education small {
-  color: #886D1E;
+  color: #FFB8D1;
   font-weight: bold;
 }
 /*-------------------------*/
+#projects h1{
+  color: #FFFFFF;
+}
 
 #projects .photo-grid .grid-container h2{
     padding-top: 2rem;
