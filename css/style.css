@@ -627,6 +627,10 @@ footer {
     background: #FFFFFF;
 }
 
+footer p{
+  colour: #A04668;
+}
+
 /*---------------------------------------
    Social icon
 -----------------------------------------*/
@@ -661,7 +665,7 @@ footer {
 }
 
 .social-icon li a:hover {
-    background: #E3AE57;
+    background: #A04668;
     border-color: #ffffff;
     color: #ffffff;
     transform: scale(1.1);
