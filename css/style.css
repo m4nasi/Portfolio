@@ -411,6 +411,10 @@ a:hover, a:active, a:focus {
   padding-bottom: 8px;
 }
 
+#about h1, p {
+  color: #ffffff;
+}
+
 /*---------------------------------------
     Service section
 -----------------------------------------*/
