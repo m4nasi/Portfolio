@@ -177,6 +177,10 @@ footer {
   color: #FFB8D1;
 }
 
+.color-purple{
+  color: #690375;
+}
+
 .bg-yellow {
   background: #E3AE57;
 }
@@ -627,7 +631,7 @@ footer {
     background: #FFFFFF;
 }
 
-footer p{
+footer p, a{
   colour: #A04668;
 }
 
