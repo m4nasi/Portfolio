@@ -329,7 +329,7 @@ a:hover, a:active, a:focus {
 
 .custom-navbar .nav li a:hover {
     background: transparent;
-    color: #6D2E46;
+    color: #FFB8D1;
 }
 
 .custom-navbar .navbar-nav > li > a:hover,
@@ -352,7 +352,7 @@ a:hover, a:active, a:focus {
 }
 
 .custom-navbar .navbar-toggle .icon-bar {
-    background: #6D2E46;
+    background: #FFB8D1;
     border-color: transparent;
 }
 
