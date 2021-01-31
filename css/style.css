@@ -156,9 +156,7 @@ footer {
   background: #9D6A89;
 }
 
-#about{
-  background: #EFB9CB;
-}
+
 
 #service {
   background: #E6ADEC;
@@ -189,6 +187,9 @@ footer {
   color: #FFB8D1;
 }
 
+.bg-light-pink{
+  background: #EFB9CB;
+}
 .color-purple{
   color: #690375;
 }
