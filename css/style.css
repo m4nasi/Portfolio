@@ -282,7 +282,7 @@ a:hover, a:active, a:focus {
   margin-top: -10px;
   margin-left: -10px;
   border-radius: 50%;
-  border: 2px solid #E3AE57;
+  border: 2px solid #FFB8D1;
   border-top-color: #f9f9f9;
   animation: spinner .6s linear infinite;
 }
