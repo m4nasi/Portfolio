@@ -282,7 +282,7 @@ a:hover, a:active, a:focus {
   margin-top: -10px;
   margin-left: -10px;
   border-radius: 50%;
-  border: 2px solid #FFB8D1;
+  border: 2px solid #6D2E46;
   border-top-color: #f9f9f9;
   animation: spinner .6s linear infinite;
 }
@@ -329,7 +329,7 @@ a:hover, a:active, a:focus {
 
 .custom-navbar .nav li a:hover {
     background: transparent;
-    color: #FFB8D1;
+    color: #6D2E46;
 }
 
 .custom-navbar .navbar-nav > li > a:hover,
@@ -339,7 +339,7 @@ a:hover, a:active, a:focus {
 
 .custom-navbar .nav li.active > a {
     background-color: transparent;
-    color: #FFB8D1;
+    color: #6D2E46;
 }
 
 .custom-navbar .navbar-toggle {
@@ -352,7 +352,7 @@ a:hover, a:active, a:focus {
 }
 
 .custom-navbar .navbar-toggle .icon-bar {
-    background: #FFB8D1;
+    background: #6D2E46;
     border-color: transparent;
 }
 
