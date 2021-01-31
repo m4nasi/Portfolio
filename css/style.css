@@ -85,7 +85,7 @@ p {
 }
 
 .section-btn:hover {
-  background: #E3AE57;
+  background: #690375;
   border-color: transparent;
   color: #ffffff;
 }
@@ -222,7 +222,7 @@ html{
 }
 
 a {
-  color: #E3AE57;
+  color: #690375;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
