@@ -138,22 +138,31 @@ footer {
   text-align: center;
 }
 
+#home .col-md-6 {
+  background: #F1E3F3;
+  padding-right: 0;
+  padding-left: 0;
+}
+
 #education{
-  background: #A04668;
+  background: #C2BBF0;
 }
 
 #experience{
-  background: #A54657;
+  background: #8789C0;
 }
 
 #projects {
-  background: #A54657;
+  background: #9D6A89;
 }
 
 #about{
-  background: #8380B6;
+  background: #EFB9CB;
 }
 
+#service {
+  background: #E6ADEC;
+}
 
 .background-image {
     background-position: 50% 50% !important;
@@ -192,8 +201,8 @@ footer {
   color: #000000;
 }
 
-.bg-yellow {
-  background: #E3AE57;
+.bg-pink {
+  background: #FFB8D1;
 }
 
 .bg-white {
@@ -371,12 +380,6 @@ a:hover, a:active, a:focus {
   padding-bottom: 18px;
 }
 
-#home .col-md-6 {
-  background: #C4E0F9;
-  padding-right: 0;
-  padding-left: 0;
-}
-
 #home .container .home-img {
   /*background: url('assets/Portrait.jpg') no-repeat;*/
   background: url('../assets/Portrait.jpg');
@@ -437,10 +440,6 @@ a:hover, a:active, a:focus {
 /*---------------------------------------
     Service section
 -----------------------------------------*/
-#service {
-  background: #B95F89;
-}
-
 #service p {
   font-size: 18px;
   line-height: 30px;
@@ -458,7 +457,6 @@ a:hover, a:active, a:focus {
 /*---------------------------------------
     Experience section
 -----------------------------------------*/
-
 #experience .experience-img {
   background: url('../assets/Berlin3.JPG') no-repeat;
 }
@@ -480,11 +478,6 @@ a:hover, a:active, a:focus {
 /*---------------------------------------
     Education section
 -----------------------------------------*/
-
-#education {
-  background: #2ECOF9;
-}
-
 #education .education-img {
   background: url('../assets/Berlin4.JPG') no-repeat;
 }
