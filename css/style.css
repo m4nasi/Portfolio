@@ -438,6 +438,9 @@ a:hover, a:active, a:focus {
   color: #ffffff;
 }
 
+#about .hobby{
+  padding: 5px;
+}
 /*---------------------------------------
     Service section
 -----------------------------------------*/
