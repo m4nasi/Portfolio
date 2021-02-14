@@ -310,7 +310,7 @@ a:hover, a:active, a:focus {
 }
 
 .custom-navbar .logo{
-  align-self: flex-start; 
+  align-self: flex-start;
 }
 .custom-navbar .navbar-brand {
     color: #333;
@@ -437,7 +437,7 @@ a:hover, a:active, a:focus {
   padding-bottom: 5px;
 }
 
-#about h1, p {
+#about p {
   color: #ffffff;
 }
 
