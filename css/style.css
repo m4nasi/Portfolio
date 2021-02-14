@@ -343,7 +343,7 @@ a:hover, a:active, a:focus {
 
 .custom-navbar .nav li.active > a {
     background-color: transparent;
-    color: #6D2E46;
+    color: ##665687;
 }
 
 .custom-navbar .navbar-toggle {
