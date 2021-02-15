@@ -360,15 +360,15 @@ a:hover, a:active, a:focus {
     border-color: transparent;
 }
 
-.navbar .social{
+.custom-navbar .social{
   padding: 1.4rem 0
 }
 
-.navbar .social i{
+.custom-navbar .social i{
   padding: 0 .2rem;
 }
 
-.navbar .social i:hover{
+.custom-navbar .social i:hover{
   color: #a1c4cf;
 }
 
