@@ -580,17 +580,20 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 #contact {
   background: #6D2E46;
+  align-items:center;
+  padding-left: 130px;
+  padding-right: 130px;
 }
 
 #contact .contact-form,
 #contact .contact-thumb {
   padding: 22px 32px 22px 32px;
-  min-height: 75vh;
+  min-height: 50vh;
 }
 
 #contact .contact-img {
   background: url('../assets/Berlin5.JPG') no-repeat;
-  min-height: 75vh;
+  min-height: 50vh;
 }
 
 #contact .contact-info {
@@ -688,6 +691,16 @@ footer {
     border-color: #ffffff;
     color: #ffffff;
     transform: scale(1.1);
+}
+
+.view-more-btn{
+  background: #45489a;
+  color: #ffffff;
+}
+
+.view-more-btn:hover {
+  background: #ffffff;
+  color: #45489a;
 }
 
 /*---------------------------------------
