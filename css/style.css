@@ -474,6 +474,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 #experience .experience-img {
   background: url('../assets/Berlin3.JPG') no-repeat;
+  min-height:
 }
 
 #experience .media-heading {
