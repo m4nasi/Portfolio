@@ -402,7 +402,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #about .about-img {
-    background: url('../assets/berlin1.jpg') no-repeat;
+    background: url('../assets/Berlin1.JPG') no-repeat;
 }
 
 #about .about-thumb,
@@ -462,7 +462,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #experience .experience-img {
-  background: url('../assets/berlin2.jpg') no-repeat;
+  background: url('../assets/Berlin2.JPG') no-repeat;
 }
 
 #experience .media-heading {
@@ -491,7 +491,7 @@ a:hover, a:active, a:focus {
 }
 
 #education .education-img {
-  background: url('../assets/berlin3.jpg') no-repeat;
+  background: url('../assets/Berlin3.jpg') no-repeat;
 }
 
 #education .media-heading {
@@ -515,7 +515,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #quotes {
-    background: url('../assets/berlin3.jpg') 50% 0 repeat-y fixed;
+    background: url('../assets/Berlin3.jpg') 50% 0 repeat-y fixed;
     background-size: cover;
     background-position: center center;
     color: #ffffff;
@@ -625,7 +625,7 @@ a:hover, a:active, a:focus {
 }
 
 #contact .contact-img {
-  background: url('../assets/berlin4.JPG') no-repeat;
+  background: url('../assets/Berlin4.jpg') no-repeat;
   min-height: 81vh;
 }
 
