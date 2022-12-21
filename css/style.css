@@ -85,7 +85,7 @@ p {
 }
 
 .section-btn:hover {
-  background: ##6279B8;
+  background: #690375;
   border-color: transparent;
   color: #ffffff;
 }
@@ -184,20 +184,18 @@ footer {
 }
 
 .color-pink {
-  color: #496F5D;
+  color: #FFB8D1;
 }
 
 .bg-light-pink{
-  background: #8EA4D2;
-  /*light blue */
+  background: #EFB9CB;
 }
 .color-purple{
-  color: ##6279B8;
-  /*darker blue*/
+  color: #690375;
 }
 
 .color-dark-blue{
-  color: #49516F;
+  color: #17255A;
 }
 
 .color-black{
@@ -205,7 +203,7 @@ footer {
 }
 
 .bg-pink {
-  background: #496F5D;
+  background: #FFB8D1;
 }
 
 .bg-white {
@@ -213,7 +211,7 @@ footer {
 }
 
 .bg-dark {
-  background: #4C9F70;
+  background: #161616;
 }
 
 .text-gray{
@@ -229,7 +227,7 @@ html{
 }
 
 a {
-  color: ##6279B8;
+  color: #690375;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -319,7 +317,7 @@ a:hover, a:active, a:focus {
 	  text-shadow: 1px 1px #fff;
     font-weight: bold;
     font-size: 24px;
-    line-height: 20px;
+    line-height: 35px;
     letter-spacing: 1px;
 }
 
@@ -335,7 +333,7 @@ a:hover, a:active, a:focus {
 
 .custom-navbar .nav li a:hover {
     background: transparent;
-    color: #8EA4D2;
+    color: #EFB9CB;
 }
 
 .custom-navbar .navbar-nav > li > a:hover,
@@ -358,7 +356,7 @@ a:hover, a:active, a:focus {
 }
 
 .custom-navbar .navbar-toggle .icon-bar {
-    background: #8EA4D2;
+    background: #EFB9CB;
     border-color: transparent;
 }
 
@@ -400,9 +398,9 @@ a:hover, a:active, a:focus {
 
 #home .container .home-img {
   /*background: url('assets/Portrait.jpg') no-repeat;*/
-  background: url('../assets/portraitnew.jpg');
+  background: url('../assets/Portrait.jpg');
   background-size: cover;
-  background-position: 80% 60%;
+  background-position: 50% 50%;
   width: 100%;
   height: 100vh;
 }
@@ -434,14 +432,14 @@ a:hover, a:active, a:focus {
 }
 
 #about .progress {
-  background: #8EA4D2;
+  background: #ffffff;
   border-radius: 0px;
   box-shadow: none;
   height: 2px;
 }
 
 #about .progress-bar-primary {
-  background: #8EA4D2;
+  background: #B95F89;
 }
 
 #about strong,
@@ -476,7 +474,6 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 #experience .experience-img {
   background: url('../assets/Berlin3.JPG') no-repeat;
-  min-height:
 }
 
 #experience .media-heading {
@@ -489,7 +486,7 @@ a:hover, a:active, a:focus {
 }
 
 #experience small {
-  color: #496F5D;
+  color: #FFB8D1;
   font-weight: bold;
 }
 
@@ -583,20 +580,17 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 #contact {
   background: #6D2E46;
-  align-items:center;
-  padding-left: 130px;
-  padding-right: 130px;
 }
 
 #contact .contact-form,
 #contact .contact-thumb {
   padding: 22px 32px 22px 32px;
-  min-height: 50vh;
+  min-height: 75vh;
 }
 
 #contact .contact-img {
   background: url('../assets/Berlin5.JPG') no-repeat;
-  min-height: 50vh;
+  min-height: 75vh;
 }
 
 #contact .contact-info {
@@ -633,7 +627,7 @@ a:hover, a:active, a:focus {
   background: #ffffff;
   border: 2px solid transparent;
   border-radius: 40px;
-  color: #4C9F70;
+  color: #161616;
   padding-bottom: 10px;
 }
 
@@ -694,16 +688,6 @@ footer {
     border-color: #ffffff;
     color: #ffffff;
     transform: scale(1.1);
-}
-
-.view-more-btn{
-  background: #45489a;
-  color: #ffffff;
-}
-
-.view-more-btn:hover {
-  background: #ffffff;
-  color: #45489a;
 }
 
 /*---------------------------------------
