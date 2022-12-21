@@ -1,17 +1,24 @@
+/*
+
+Stimulus Template
+
+http://www.templatemo.com/tm-498-stimulus
+
+*/
+
 body {
-    background: #ffffff;
+	background: #ffffff;
     font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
-    font-weight: 300;
+	font-weight: 300;
     overflow-x: hidden;
 }
 
 html,body {
   width: 100%;
   height: 100%;
-  margin: 0%;
-  box-sizing: border-box;
 }
+
 
 /*---------------------------------------
     Typorgraphy
@@ -85,7 +92,7 @@ p {
 }
 
 .section-btn:hover {
-  background: #690375;
+  background: #E3AE57;
   border-color: transparent;
   color: #ffffff;
 }
@@ -109,8 +116,7 @@ p {
 #service,
 #experience,
 #education,
-#contact,
-#projects{
+#contact {
   position: relative;
 }
 
@@ -119,8 +125,7 @@ p {
 #experience .container,
 #service .container,
 #education .container,
-#contact .container,
-#projects .container {
+#contact .container {
   width: 100%;
   padding: 0;
   margin: 0;
@@ -133,33 +138,13 @@ p {
 
 #service,
 #quotes,
-#projects,
 footer {
   text-align: center;
 }
 
-#home .col-md-6 {
-  background: #F1E3F3;
-  padding-right: 0;
-  padding-left: 0;
-}
-
-#education{
-  background: #C2BBF0;
-}
-
-#experience{
-  background: #8789C0;
-}
-
-#projects {
-  background: #9D6A89;
-}
-
-
-
-#service {
-  background: #E6ADEC;
+#experience,
+#education {
+  background: #E9724C;
 }
 
 .background-image {
@@ -180,30 +165,26 @@ footer {
 }
 
 .color-yellow {
+	color: 3f7e85;
+	/*
   color: #E3AE57;
+	*/
 }
 
-.color-pink {
-  color: #FFB8D1;
+.colour-contact{
+	color: #AD3235;
 }
 
-.bg-light-pink{
-  background: #EFB9CB;
-}
-.color-purple{
-  color: #690375;
+.bg-yellow {
+  background: #3f7e85;
 }
 
-.color-dark-blue{
-  color: #17255A;
-}
-
-.color-black{
-  color: #000000;
+.bg-blue{
+	background: #3f7856;
 }
 
 .bg-pink {
-  background: #FFB8D1;
+  background: #019875;
 }
 
 .bg-white {
@@ -211,12 +192,13 @@ footer {
 }
 
 .bg-dark {
+	background: #1d474d;
+	/*
   background: #161616;
+	*/
 }
 
-.text-gray{
-  color: var(--text-gray);
-}
+
 
 /*---------------------------------------
     General
@@ -227,13 +209,12 @@ html{
 }
 
 a {
-  color: #690375;
+  color: #E3AE57;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
   text-decoration: none !important;
 }
-
 a:hover, a:active, a:focus {
   color: #E3AE57;
   outline: none;
@@ -251,6 +232,8 @@ a:hover, a:active, a:focus {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+
+
 
 /*---------------------------------------
     Preloader section
@@ -287,7 +270,7 @@ a:hover, a:active, a:focus {
   margin-top: -10px;
   margin-left: -10px;
   border-radius: 50%;
-  border: 2px solid #6D2E46;
+  border: 2px solid #E3AE57;
   border-top-color: #f9f9f9;
   animation: spinner .6s linear infinite;
 }
@@ -300,6 +283,8 @@ a:hover, a:active, a:focus {
   to {transform: rotate(360deg);}
 }
 
+
+
 /*---------------------------------------
     Navigation section
 -----------------------------------------*/
@@ -309,12 +294,9 @@ a:hover, a:active, a:focus {
     background-color: #ffffff;
 }
 
-.custom-navbar .logo{
-  align-self: flex-start;
-}
 .custom-navbar .navbar-brand {
     color: #333;
-	  text-shadow: 1px 1px #fff;
+	text-shadow: 1px 1px #fff;
     font-weight: bold;
     font-size: 24px;
     line-height: 35px;
@@ -333,7 +315,8 @@ a:hover, a:active, a:focus {
 
 .custom-navbar .nav li a:hover {
     background: transparent;
-    color: #EFB9CB;
+    color: #3f7e85;
+		/*  color: #7c9885;  */
 }
 
 .custom-navbar .navbar-nav > li > a:hover,
@@ -343,7 +326,7 @@ a:hover, a:active, a:focus {
 
 .custom-navbar .nav li.active > a {
     background-color: transparent;
-    color: ##665687;
+    color: #3f7e85;
 }
 
 .custom-navbar .navbar-toggle {
@@ -356,20 +339,8 @@ a:hover, a:active, a:focus {
 }
 
 .custom-navbar .navbar-toggle .icon-bar {
-    background: #EFB9CB;
+    background: #E3AE57;
     border-color: transparent;
-}
-
-.custom-navbar .social{
-  padding: 1.4rem 0
-}
-
-.custom-navbar .social i{
-  padding: 0 .2rem;
-}
-
-.custom-navbar .social i:hover{
-  color: #a1c4cf;
 }
 
 @media(min-width:768px) {
@@ -386,7 +357,7 @@ a:hover, a:active, a:focus {
 
 }
 
-/* -------x------- navbar ---------x------- */
+
 
 /*---------------------------------------
     Home section
@@ -396,9 +367,15 @@ a:hover, a:active, a:focus {
   padding-bottom: 18px;
 }
 
-#home .container .home-img {
-  /*background: url('assets/Portrait.jpg') no-repeat;*/
-  background: url('../assets/Portrait.jpg');
+#home .col-md-6 {
+  background: #c3eafd;
+/* light blue color: #c3eafd; */
+  padding-right: 0;
+  padding-left: 0;
+}
+
+#home .home-img {
+  background: url('../assets/Portrait.jpg') no-repeat;
   background-size: cover;
   background-position: 50% 50%;
   width: 100%;
@@ -418,12 +395,14 @@ a:hover, a:active, a:focus {
   padding: 0 45px 0 45px;
 }
 
+
+
 /*---------------------------------------
    About section
 -----------------------------------------*/
 
 #about .about-img {
-    background: url('../assets/Berlin2.jpg') no-repeat;
+    background: url('../assets/berlin1.jpg') no-repeat;
 }
 
 #about .about-thumb,
@@ -439,22 +418,29 @@ a:hover, a:active, a:focus {
 }
 
 #about .progress-bar-primary {
-  background: #B95F89;
+  background: #232B2B;
 }
 
 #about strong,
 #about span {
   font-weight: bold;
   display: inline-block;
-  padding-bottom: 5px;
+  padding-bottom: 8px;
 }
 
-#about .hobby{
-  padding: 5px;
-}
+
+
 /*---------------------------------------
     Service section
 -----------------------------------------*/
+
+#service {
+	background: #00AEAD;
+	/*
+  background: #E9724C;
+	*/
+}
+
 #service p {
   font-size: 18px;
   line-height: 30px;
@@ -469,11 +455,14 @@ a:hover, a:active, a:focus {
   padding-bottom: 22px;
 }
 
+
+
 /*---------------------------------------
     Experience section
 -----------------------------------------*/
+
 #experience .experience-img {
-  background: url('../assets/Berlin3.jpg') no-repeat;
+  background: url('../assets/berlin2.jpg') no-repeat;
 }
 
 #experience .media-heading {
@@ -486,15 +475,23 @@ a:hover, a:active, a:focus {
 }
 
 #experience small {
-  color: #FFB8D1;
+  color: #633;
   font-weight: bold;
 }
 
 /*---------------------------------------
     Education section
 -----------------------------------------*/
+
+#education {
+	background: #035956;
+	/*
+  background: #E3AE57;
+	*/
+}
+
 #education .education-img {
-  background: url('../assets/Berlin4.jpg') no-repeat;
+  background: url('../assets/berlin3.jpg') no-repeat;
 }
 
 #education .media-heading {
@@ -507,10 +504,48 @@ a:hover, a:active, a:focus {
 }
 
 #education small {
-  color: #665687;
+  color: #886D1E;
   font-weight: bold;
 }
-/*-------------------------*/
+
+
+
+/*---------------------------------------
+   Quotes section
+-----------------------------------------*/
+
+#quotes {
+    background: url('../assets/berlin3.jpg') 50% 0 repeat-y fixed;
+    background-size: cover;
+    background-position: center center;
+    color: #ffffff;
+    position: relative;
+    padding: 100px 0px;
+}
+
+#quotes .overlay {
+    background: #121212;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    opacity: 0.7;
+}
+
+#quotes .fa {
+  font-size: 42px;
+  margin-top: 32px;
+  margin-bottom: 22px;
+}
+
+#quotes p {
+  padding-top: 32px;
+}
+
+/*---------------------------------------
+   Projects section 11/01
+-----------------------------------------*/
+
 #projects h1{
   color: #FFFFFF;
 }
@@ -572,25 +607,26 @@ a:hover, a:active, a:focus {
     z-index: 1;
     transition: all .3s ease-in-out;
   }
-
-
-
 /*---------------------------------------
     Contact section
 -----------------------------------------*/
+
 #contact {
-  background: #6D2E46;
+	background: #00917c;
+	/*
+  background: #E9724C;
+	*/
 }
 
 #contact .contact-form,
 #contact .contact-thumb {
   padding: 22px 32px 22px 32px;
-  min-height: 75vh;
+  min-height: 81vh;
 }
 
 #contact .contact-img {
-  background: url('../assets/Berlin5.jpg') no-repeat;
-  min-height: 75vh;
+  background: url('../assets/berlin4.JPG') no-repeat;
+  min-height: 81vh;
 }
 
 #contact .contact-info {
@@ -605,7 +641,8 @@ a:hover, a:active, a:focus {
 #contact .form-control {
   background: transparent;
   border: none;
-  border-bottom: 1px solid #A04668;
+	/*changes the line colour 11/01*/
+  border-bottom: 1px solid #000000;
   border-radius: 0px;
   box-shadow: none;
   color: #ffffff;
@@ -641,14 +678,17 @@ a:hover, a:active, a:focus {
   padding-right: 10px;
 }
 
+
+
 /*---------------------------------------
    Footer section
 -----------------------------------------*/
 
 footer {
     padding: 140px 0px;
-    background: #FFFFFF;
 }
+
+
 
 /*---------------------------------------
    Social icon
@@ -684,11 +724,13 @@ footer {
 }
 
 .social-icon li a:hover {
-    background: #A04668;
+    background: #E3AE57;
     border-color: #ffffff;
     color: #ffffff;
     transform: scale(1.1);
 }
+
+
 
 /*---------------------------------------
    Mobile Responsive
