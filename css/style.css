@@ -27,7 +27,7 @@ h1,h2,h3 {
 
 h1 {
   font-size: 42px;
-  padding-bottom: 14px;
+  padding-bottom: 10px;
   margin-bottom: 0px;
 }
 
@@ -84,7 +84,7 @@ p {
 }
 
 .section-btn:hover {
-  background: #E3AE57;
+  background: #035956;
   border-color: transparent;
   color: #ffffff;
 }
@@ -125,7 +125,7 @@ p {
 
 #experience .experience-thumb,
 #education .education-thumb  {
-  padding: 22px 42px 42px 42px;
+  padding: 22px 42px 22px 42px;
 }
 
 #service,
@@ -201,14 +201,14 @@ html{
 }
 
 a {
-  color: #E3AE57;
+  color: #035956;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
   text-decoration: none !important;
 }
 a:hover, a:active, a:focus {
-  color: #E3AE57;
+  color: #035956;
   outline: none;
 }
 
@@ -286,9 +286,10 @@ a:hover, a:active, a:focus {
     background-color: #ffffff;
 }
 
+/*manasi mehta*/
 .custom-navbar .navbar-brand {
     color: #333;
-	text-shadow: 1px 1px #fff;
+		text-shadow: 1px 1px #fff;
     font-weight: bold;
     font-size: 24px;
     line-height: 35px;
@@ -297,7 +298,7 @@ a:hover, a:active, a:focus {
 
 .custom-navbar .nav li a {
     color: #666;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 400;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -331,7 +332,7 @@ a:hover, a:active, a:focus {
 }
 
 .custom-navbar .navbar-toggle .icon-bar {
-    background: #E3AE57;
+    background: #035956;
     border-color: transparent;
 }
 
@@ -716,7 +717,7 @@ footer {
 }
 
 .social-icon li a:hover {
-    background: #E3AE57;
+    background: #035956;
     border-color: #ffffff;
     color: #ffffff;
     transform: scale(1.1);
